@@ -1,0 +1,61 @@
+atom-text-editor, :host {
+  background-color: @background;
+  color: @foreground;
+
+  .wrap-guide {
+    background-color: @guide;
+  }
+
+  .indent-guide {
+    color: @guide;
+  }
+
+  .invisible-character {
+    color: @invisibles;
+  }
+
+  .gutter {
+    background-color: @background;
+    color: @gray;
+
+    .line-number {
+      &.cursor-line {
+        background-color: @syntax-gutter-background-color-selected;
+        color: @gray;
+      }
+
+      &.cursor-line-no-selection {
+        color: @yellow;
+      }
+    }
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @gray;
+  }
+
+  .invisible {
+    color: @invisibles;
+  }
+
+  .cursor {
+    color: @fg4;
+  }
+
+  .selection .region {
+    background-color: @bg1;
+  }
+}
+
+atom-text-editor .search-results .marker .region,
+:host .search-results .marker .region {
+  background-color: transparent;
+  border: 1px solid @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region,
+:host .search-results .marker.current-result .region {
+  border: 1px solid @syntax-result-marker-color-selected;
+}

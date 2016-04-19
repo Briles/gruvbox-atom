@@ -1,0 +1,26 @@
+{
+  "name": "gruvbox-plus-syntax",
+  "theme": "syntax",
+  "main": "./lib/gruvbox",
+  "version": "1.0.0",
+  "description": "Syntax themes with pastel 'retro groove' colors, dark/light mode switching, & contrast alternatives",
+  "keywords": [
+    "gruvbox",
+    "dark",
+    "light",
+    "medium",
+    "soft",
+    "hard",
+    "vim",
+    "retro",
+    "groove"
+  ],
+  "repository": "https://github.com/Briles/gruvbox-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  }
+}
