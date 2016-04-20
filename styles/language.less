@@ -1,65 +1,144 @@
-.meta.method.body.java, .meta.method.body.source.cs, .none, .source, .text {
+.meta.arguments,
+.meta.method.body.java,
+.meta.method.body.source.cs,
+.none,
+.source,
+.text {
   color: @foreground;
 }
 
-.entity.quasi.element .meta.group.braces, .keyword.operator .keyword.operator.neon, .keyword.operator .operator.neon, .keyword.other.accessor, .meta.attribute-selector .keyword.operator.stylus, .meta.brace, .meta.delimiter, .meta.group.braces, .meta.punctuation.separator, .meta.separator, .punctuation {
+.entity.quasi.element .meta.group.braces,
+.keyword.operator .keyword.operator.neon,
+.keyword.operator .operator.neon,
+.keyword.other.accessor,
+.meta.attribute-selector .keyword.operator.stylus,
+.meta.brace,
+.meta.delimiter,
+.meta.group.braces,
+.meta.punctuation.separator,
+.meta.separator,
+.punctuation,
+.punctuation.definition.string {
   color: @foreground;
 }
 
-.comment, .comment .text, .markup.strikethrough, .punctuation.definition.comment, .punctuation.whitespace.comment, .string.comment, .text.cancelled {
+.comment,
+.comment .text,
+.markup.strikethrough,
+.punctuation.definition.comment,
+.punctuation.whitespace.comment,
+.string.comment,
+.text.cancelled {
   font-style: italic;
   color: @gray;
 }
 
-.comment.keyword, .comment.keyword.punctuation {
+.comment.keyword,
+.comment.keyword.punctuation {
   color: @fg2;
 }
 
-.comment.parameter, .comment.punctuation, .comment.string, .comment.type, .keyword.other.phpdoc.php, .punctuation.definition.keyword.javadoc, .source.groovy .keyword.other.documentation, .source.java .keyword.other.documentation, .storage.type.annotation.coffeescript, .storage.type.class.jsdoc {
+.comment.parameter,
+.comment.punctuation,
+.comment.string,
+.comment.type,
+.keyword.other.phpdoc.php,
+.punctuation.definition.keyword.javadoc,
+.source.groovy .keyword.other.documentation,
+.source.java .keyword.other.documentation,
+.storage.type.annotation.coffeescript,
+.storage.type.class.jsdoc {
   color: @fg3;
 }
 
-.constant.language.name, .entity.name.type, .entity.other.inherited-class {
+.constant.language.name,
+.entity.name.type,
+.entity.other.inherited-class {
   color: @yellow;
 }
 
-.entity.name.tag.mustache, .entity.tag.tagbraces, .punctuation.definition.string.template, .punctuation.definition.template-expression, .punctuation.quasi, .punctuation.section.embedded, .string.interpolated, .variable.other.interpolation.scss {
+.entity.name.tag.mustache,
+.entity.tag.tagbraces,
+.punctuation.definition.string.template,
+.punctuation.definition.template-expression,
+.punctuation.quasi,
+.punctuation.section.embedded,
+.string.interpolated,
+.variable.other.interpolation.scss {
   color: @aqua;
 }
 
-.js.embedded.control.flow .keyword.operator.js, .keyword, .keyword.control, .keyword.operator.logical.python, .meta.at-rule.media .support.function.misc, .meta.prolog.haml, .meta.tag.sgml.doctype.html, .source.cs .keyword.operator, .storage.type.function.jade, .storage.type.import.haxe, .storage.type.import.include.jade, .variable.documentroot {
+.js.embedded.control.flow .keyword.operator.js,
+.keyword,
+.keyword.control,
+.keyword.operator.logical.python,
+.meta.at-rule.media .support.function.misc,
+.meta.prolog.haml,
+.meta.tag.sgml.doctype.html,
+.source.cs .keyword.operator,
+.storage.type.function.jade,
+.storage.type.import.haxe,
+.storage.type.import.include.jade,
+.variable.documentroot {
   color: @red;
 }
 
-.keyword.control.at-rule .support.type.property-vendor, .punctuation.definition.keyword {
+.keyword.control.at-rule .support.type.property-vendor,
+.punctuation.definition.keyword {
   color: @neutral-red;
 }
 
-.keyword.control.new, .keyword.control.operator, .keyword.operator, .keyword.other.arrow, .keyword.other.double-colon {
+.keyword.control.new,
+.keyword.control.operator,
+.keyword.operator,
+.keyword.other.arrow,
+.keyword.other.double-colon,
+.storage.type.arrow {
   color: @aqua;
 }
 
-.constant.other.color .punctuation.definition.constant, .constant.other.unit, .keyword.other.unit, .punctuation.section.flowtype {
+.constant.other.color .punctuation.definition.constant,
+.constant.other.unit,
+.keyword.other.unit,
+.punctuation.section.flowtype {
   color: @neutral-purple;
 }
 
-.storage, .storage.type.annotation, .storage.type.primitive {
+.storage,
+.storage.type.annotation,
+.storage.type.primitive {
   color: @red;
 }
 
-.storage.modifier.import, .storage.modifier.package, .storage.type.import, .variable.import, .variable.package {
+.storage.modifier.import,
+.storage.modifier.package,
+.storage.type.import,
+.variable.import,
+.variable.package {
   color: @foreground;
 }
 
-.entity.quasi.tag.name, .meta.function .storage.type.matlab, .storage.type.function {
+.entity.quasi.tag.name,
+.meta.function .storage.type.matlab,
+.storage.type.function {
   color: @aqua;
 }
 
-.entity.name.val.declaration, .entity.name.variable, .meta.definition.variable, .storage.type.variable, .variable, .variable.interpolation .variable, .variable.other.interpolation .variable, .variable.parameter.output.function.matlab, .variable.parameter.sass {
+.entity.name.val.declaration,
+.entity.name.variable,
+.meta.definition.variable,
+.storage.type.variable,
+.variable,
+.variable.interpolation .variable,
+.variable.other.interpolation .variable,
+.variable.parameter.output.function.matlab,
+.variable.parameter.sass {
   color: @blue;
 }
 
-.punctuation.definition.variable, .variable.interpolation, .variable.other.dollar .punctuation.dollar {
+.punctuation.definition.variable,
+.variable.interpolation,
+.variable.other.dollar .punctuation.dollar {
   color: @neutral-blue;
 }
 
@@ -67,11 +146,13 @@
   color: @foreground;
 }
 
-.constant.other.object.key .string, .meta.object-literal.key {
+.constant.other.object.key .string,
+.meta.object-literal.key {
   color: @foreground;
 }
 
-.meta.parameters, .variable.parameter {
+.meta.parameters,
+.variable.parameter {
   color: @foreground;
 }
 
@@ -79,7 +160,13 @@
   color: @green;
 }
 
-.constant, .constant.numeric, .constant.other, .constant.other.color, .constant.other.symbol, .support.constant.color, .variable.language {
+.constant,
+.constant.numeric,
+.constant.other,
+.constant.other.color,
+.constant.other.symbol,
+.support.constant.color,
+.variable.language {
   color: @purple;
 }
 
@@ -87,7 +174,10 @@
   color: @yellow;
 }
 
-.constant.character.escape, .constant.character.escaped, .constant.character.quoted, .constant.other.character-class.escape {
+.constant.character.escape,
+.constant.character.escaped,
+.constant.character.quoted,
+.constant.other.character-class.escape {
   color: @red;
 }
 
@@ -100,7 +190,8 @@
   color: @green;
 }
 
-.source.regexp, .string.regexp {
+.source.regexp,
+.string.regexp {
   color: @green;
 }
 
@@ -108,7 +199,9 @@
   color: @fg3;
 }
 
-.keyword.control.set.regexp, .punctuation.definition.character-class, .string.regexp.character-class.ruby {
+.keyword.control.set.regexp,
+.punctuation.definition.character-class,
+.string.regexp.character-class.ruby {
   color: @purple;
 }
 
@@ -116,23 +209,34 @@
   color: @foreground;
 }
 
-.constant.other.assertion.regexp, .punctuation.definition.group.assertion.regexp, .punctuation.definition.group.capture.regexp {
+.constant.other.assertion.regexp,
+.punctuation.definition.group.assertion.regexp,
+.punctuation.definition.group.capture.regexp {
   color: @blue;
 }
 
-.constant.other.character-class.escape.backslash.regexp, .keyword.control.character-class.regexp, .string.regexp.character-class .constant.character.escape {
+.constant.other.character-class.escape.backslash.regexp,
+.keyword.control.character-class.regexp,
+.string.regexp.character-class .constant.character.escape,
+.string.regexp .constant.character.character-class {
   color: @yellow;
 }
 
-.string.regexp.arbitrary-repetition, .string.regexp.arbitrary-repetition .punctuation {
+.string.regexp.arbitrary-repetition,
+.string.regexp.arbitrary-repetition .punctuation {
   color: @aqua;
 }
 
-.constant.other.reference.link, .string.other.link {
+.constant.other.reference.link,
+.string.other.link {
   color: @aqua;
 }
 
-.meta.image.inline .punctuation.definition.string, .meta.link.inline .punctuation.definition.string, .meta.link.reference .punctuation.definition.constant, .meta.link.reference.literal .punctuation.definition.constant, .meta.link.reference.literal .punctuation.definition.string {
+.meta.image.inline .punctuation.definition.string,
+.meta.link.inline .punctuation.definition.string,
+.meta.link.reference .punctuation.definition.constant,
+.meta.link.reference.literal .punctuation.definition.constant,
+.meta.link.reference.literal .punctuation.definition.string {
   color: @neutral-aqua;
 }
 
@@ -144,7 +248,8 @@
   color: @green;
 }
 
-.punctuation.definition.heading, .punctuation.definition.identity {
+.punctuation.definition.heading,
+.punctuation.definition.identity {
   color: @neutral-green;
 }
 
@@ -196,15 +301,27 @@
   color: @gray;
 }
 
-.support.class, .support.type, .variable.other.class {
+.support.class,
+.support.type,
+.variable.other.class {
   color: @yellow;
 }
 
-.keyword.other.special-method, .meta.function-call .variable.function, .support.function {
+.keyword.other.special-method,
+.meta.function-call .variable.function,
+.meta.function-call .entity.name.function,
+.support.function,
+.meta.import .keyword.control {
   color: @aqua;
 }
 
-.meta.function-call.method .variable.function, .meta.function-call.static .variable.function, .meta.method, .meta.method-call, .support.function.mutator {
+.meta.function-call.method .variable.function,
+.meta.function-call.static .variable.function,
+.meta.method,
+.meta.method-call,
+.support.function.mutator,
+.meta.method-call .entity.name.function,
+.meta.method-call .support.function {
   color: @neutral-aqua;
 }
 
@@ -212,11 +329,15 @@
   color: @purple;
 }
 
-.entity.name.accessor, .entity.name.function, .entity.name.section {
+.entity.name.accessor,
+.entity.name.function,
+.entity.name.section {
   color: @green;
 }
 
-.constant.id.tag, .entity.name.tag.id, .entity.other.attribute-name.id {
+.constant.id.tag,
+.entity.name.tag.id,
+.entity.other.attribute-name.id {
   color: @orange;
 }
 
@@ -224,7 +345,8 @@
   color: @neutral-orange;
 }
 
-.entity.name.tag.class, .entity.other.attribute-name.class {
+.entity.name.tag.class,
+.entity.other.attribute-name.class {
   color: @yellow;
 }
 
@@ -232,31 +354,53 @@
   color: @neutral-yellow;
 }
 
-.meta.attribute-selector .entity.other.attribute-name.attribute, .meta.attribute-selector .entity.other.attribute-name.stylus {
+.meta.attribute-selector .entity.other.attribute-name.attribute,
+.meta.attribute-selector .entity.other.attribute-name.stylus {
   color: @aqua;
 }
 
-.constant.character.entity .punctuation.definition.constant, .constant.character.entity .punctuation.definition.entity {
+.constant.character.entity .punctuation.definition.constant,
+.constant.character.entity .punctuation.definition.entity {
   color: @neutral-purple;
 }
 
-.entity.name.class, .entity.name.type.class {
+.entity.name.class,
+.entity.name.type.class {
   color: @yellow;
 }
 
-.entity.name.function.neon, .entity.name.tag, .entity.tag, .keyword.control.untitled, .keyword.doctype.xml, .keyword.operator .support.other.neon, .punctuation.definition.prolog.haml, .source.less .keyword.control.html.elements {
+.entity.name.function.neon,
+.entity.name.tag,
+.entity.tag,
+.keyword.control.untitled,
+.keyword.doctype.xml,
+.keyword.operator .support.other.neon,
+.punctuation.definition.prolog.haml,
+.source.less .keyword.control.html.elements {
   color: @blue;
 }
 
-.entity.name.attribute-name, .entity.other.attribute-name, .meta.section.attributes.haml .constant.other.symbol.ruby {
+.entity.name.attribute-name,
+.entity.other.attribute-name,
+.meta.section.attributes.haml .constant.other.symbol.ruby {
   color: @yellow;
 }
 
-.entity.other.attribute-name.placeholder .punctuation.definition.entity, .entity.other.attribute-name.pseudo-class, .entity.other.attribute-name.pseudo-element, .entity.other.attribute-name.tag.pseudo-class, .entity.other.attribute-name.tag.pseudo-element, .support.type.vendor-prefix {
+.entity.other.attribute-name.placeholder .punctuation.definition.entity,
+.entity.other.attribute-name.pseudo-class,
+.entity.other.attribute-name.pseudo-element,
+.entity.other.attribute-name.tag.pseudo-class,
+.entity.other.attribute-name.tag.pseudo-element,
+.support.type.vendor-prefix {
   color: @neutral-yellow;
 }
 
-.entity.function-name.stylus, .entity.other.animation-keyframe.stylus, .entity.other.animation-name, .keyword.language.function.misc.stylus, .meta.at-rule.keyframes .entity.name.function, .variable.other.animation-name {
+.entity.function-name.stylus,
+.entity.other.animation-keyframe.stylus,
+.entity.other.animation-name,
+.keyword.language.function.misc.stylus,
+.meta.at-rule.keyframes .entity.name.function,
+.variable.other.animation-name {
   color: @aqua;
 }
 
@@ -264,15 +408,18 @@
   color: @yellow;
 }
 
-.meta.class.body, .meta.tag {
+.meta.class.body,
+.meta.tag {
   color: @foreground;
 }
 
-.meta.image, .meta.link {
+.meta.image,
+.meta.link {
   color: @purple;
 }
 
-.meta.image .punctuation.definition.metadata, .meta.link .punctuation.definition.metadata {
+.meta.image .punctuation.definition.metadata,
+.meta.link .punctuation.definition.metadata {
   color: @neutral-purple;
 }
 
@@ -280,11 +427,14 @@
   color: @green;
 }
 
-.constant.name.attribute.tag.jade, .meta.brace.round, .punctuation.definition.parameters {
+.constant.name.attribute.tag.jade,
+.meta.brace.round,
+.punctuation.definition.parameters {
   color: @fg3;
 }
 
-.meta.property-name, .support.type.property-name {
+.meta.property-name,
+.support.type.property-name {
   color: @green;
 }
 
@@ -292,7 +442,9 @@
   color: @neutral-green;
 }
 
-.constant.string.sass, .meta.property-value, .support.constant.property-value {
+.constant.string.sass,
+.meta.property-value,
+.support.constant.property-value {
   color: @foreground;
 }
 
@@ -320,7 +472,8 @@
   color: @neutral-purple;
 }
 
-.meta.diff.range, .meta.toc-list.line-number {
+.meta.diff.range,
+.meta.toc-list.line-number {
   color: @yellow;
 }
 
@@ -328,15 +481,18 @@
   color: @neutral-yellow;
 }
 
-.markup.deleted, .punctuation.definition.deleted {
+.markup.deleted,
+.punctuation.definition.deleted {
   color: @red;
 }
 
-.markup.inserted, .punctuation.definition.inserted {
+.markup.inserted,
+.punctuation.definition.inserted {
   color: @green;
 }
 
-.markup.changed, .punctuation.definition.changed {
+.markup.changed,
+.punctuation.definition.changed {
   color: @yellow;
 }
 
@@ -423,7 +579,8 @@
   color: @fg3;
 }
 
-.text.todo .punctuation.definition.bold, .text.todo .punctuation.definition.italic {
+.text.todo .punctuation.definition.bold,
+.text.todo .punctuation.definition.italic {
   color: @bg4;
 }
 
@@ -467,11 +624,13 @@
   color: @purple;
 }
 
-.punctuation.definition.url, .todo.url {
+.punctuation.definition.url,
+.todo.url {
   color: @blue;
 }
 
-.meta.punctuation.archive.todo, .meta.punctuation.separator.todo {
+.meta.punctuation.archive.todo,
+.meta.punctuation.separator.todo {
   font-style: italic;
   color: @gray;
 }
