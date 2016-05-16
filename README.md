@@ -1,7 +1,7 @@
 [![GitHub Tag](https://img.shields.io/github/tag/Briles/gruvbox-atom.svg?style=flat-square)](https://github.com/Briles/gruvbox-atom/tags)
 [![apm](https://img.shields.io/apm/dm/gruvbox-plus-syntax.svg?style=flat-square)](https://atom.io/themes/gruvbox-plus-syntax)
 
-<p align="center"><img src="https://cdn.rawgit.com/Briles/gruvbox-complete-syntax/master/assets/banner-image.svg" alt="gruvbox for Atom" width="327px" height="122px"></p>
+<p align="center"><img src="https://cdn.rawgit.com/Briles/gruvbox-atom/master/assets/banner-image.svg" alt="gruvbox for Atom" width="327px" height="122px"></p>
 
 Based on [gruvbox for Sublime Text](https://github.com/Briles/gruvbox)
 
