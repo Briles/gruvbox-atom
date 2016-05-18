@@ -30,8 +30,8 @@ atom-text-editor, :host {
     }
   }
 
-  .cursor-line {
-    background-color: @bg1;
+  .line.cursor-line {
+    background-color: fade(@bg2, 50%);
     .invisible-character, .invisible {
       color: @bg3;
     }
@@ -49,6 +49,11 @@ atom-text-editor, :host {
 
   .selection .region {
     background-color: @bg1;
+  }
+
+  // Bracket Matcher Highlight
+  .bracket-matcher .region{
+    border-bottom: 1px solid @fg2;
   }
 }
 
