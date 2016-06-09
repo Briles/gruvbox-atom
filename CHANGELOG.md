@@ -1,3 +1,12 @@
+# 1.2.2 (2016-06-9)
+
+- Fixed Ruby parameters definition punctuation color ([d1d4cad](https://github.com/Briles/gruvbox-atom/commit/d1d4cad2b47fee9820ec85e51f9d28d86132c935))
+- Fixed Ruby interpolated string color ([4c1fe9d](https://github.com/Briles/gruvbox-atom/commit/4c1fe9d980bec41e7f52d88b045349e9f9a82e2e))
+- Colored Ruby module names ([f8c084a](https://github.com/Briles/gruvbox-atom/commit/f8c084ac2d789c001dbf91f878323b5e42cd51d9))
+- Colored additional function call braces ([193f8cd](https://github.com/Briles/gruvbox-atom/commit/193f8cd2390e1560a8b755722a4350116daa8c00))
+- Colored additional method calls ([5f2c1c7](https://github.com/Briles/gruvbox-atom/commit/5f2c1c7f1cc0b6675819fd90ce106841346eb7ef))
+- Fixed embedded PHP end punctuation coloring ([9782d1c](https://github.com/Briles/gruvbox-atom/commit/9782d1c4be15b811a7c465fdaac78b98f4ee9feb))
+
 # 1.2.1 (2016-05-21)
 
 - Fixed an issue with bracket matching highlight not being visible ([fda0739](https://github.com/Briles/gruvbox-atom/commit/fda0739c0b9a795aac51672ae85fdeefe032ca41))
@@ -28,18 +37,3 @@
 # 1.0.0 (2016-04-19)
 
 - Initial commit ([1f88188](https://github.com/Briles/gruvbox-atom/commit/1f88188ff0ff20dc417b0c2ea665e4e91ec8b0e6))
-
-* fda0739 — Brian Reilly : Ensured bracket matching highlight is visible for current line
-* 427f910 — Brian Reilly : Normalized C++ directive punctuation
-* 98cbb55 — Brian Reilly : Added comments to language styles
-* 6f6b077 — Brian Reilly : Fixed banner image link in readme
-* f6285a7 — Brian Reilly : Reset function call arguments meta colors
-* 66389e4 — Brian Reilly : Normalized object property
-* b5a7fc8 — Brian Reilly : Normalized object property
-* 39e07e2 — Brian Reilly : Normalized JavaScript template string punctuation
-* 73449cd — Brian Reilly : Normalized import keywords
-* 4872277 — Brian Reilly : Reverted change to constructor calls
-* c479c1b — Brian Reilly : Normalized CSS attribute selector operators
-* 16928bc — Brian Reilly : Normalized CSS attribute selector attribute name
-* 5672d97 — Brian Reilly : Normalized CSS function argument punctuation
-* c8523ed — Brian Reilly : Normalized CSS namespace at-rule prefix
