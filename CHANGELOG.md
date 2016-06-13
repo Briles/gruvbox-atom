@@ -1,4 +1,14 @@
-# 1.2.2 (2016-06-9)
+# 1.2.3 (2016-06-13)
+
+- Improved parity with Sublime Text for Pug/Jade ([307fd60](https://github.com/Briles/gruvbox-atom/commit/307fd607e4061ec36fda88d2b18053aa7c44298d))
+- Colored additional function call braces ([712cd0d](https://github.com/Briles/gruvbox-atom/commit/712cd0d839ca9fa754edc69c7fcc07fc621dd613))
+- Fixed JavaScript `default` keyword color ([3ade725](https://github.com/Briles/gruvbox-atom/commit/3ade7252e32743410aa30b6790631ea00290e3bd))
+- Removed non-comment colors from documentation comments ([bc6caa2](https://github.com/Briles/gruvbox-atom/commit/bc6caa238ec326258eb1acdd49c76418d09ab94f))
+- Fixed JavaScript user constant color ([2ed8218](https://github.com/Briles/gruvbox-atom/commit/2ed8218bf2a591beeddfa9c9cd54c37ee059bfeb))
+- Fixed SCSS operators color ([51365c1](https://github.com/Briles/gruvbox-atom/commit/51365c15e9c367ea41a8e831c7207864833406c5))
+- Colored SCSS template string punctuation ([8345502](https://github.com/Briles/gruvbox-atom/commit/8345502ca2d4d6ef95cb1f3948bf6a533e9b3c63))
+
+# 1.2.2 (2016-06-09)
 
 - Fixed Ruby parameters definition punctuation color ([d1d4cad](https://github.com/Briles/gruvbox-atom/commit/d1d4cad2b47fee9820ec85e51f9d28d86132c935))
 - Fixed Ruby interpolated string color ([4c1fe9d](https://github.com/Briles/gruvbox-atom/commit/4c1fe9d980bec41e7f52d88b045349e9f9a82e2e))
