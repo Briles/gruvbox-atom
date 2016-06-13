@@ -96,15 +96,23 @@
 .meta.at-rule.media .support.function.misc,
 .meta.prolog.haml,
 .meta.tag.sgml.doctype.html,
+.comment.other.doctype.jade,
 .source.cs .keyword.operator,
 .storage.type.function.jade,
+.storage.type.function.pug,
 .storage.type.import.haxe,
 .storage.type.import.include.jade,
+.storage.type.import.include.pug,
 .variable.documentroot,
 .meta.at-rule .keyword.control.at-rule,
 .punctuation.definition.directive,
 .variable.language.default.js {
   color: @red;
+}
+
+// Reset Jade/Pug doctype italics
+.comment.other.doctype.jade {
+  font-style: normal;
 }
 
 // CSS At-Rule Punctuation (@) & At-Rule Vendor Prefixes
@@ -165,7 +173,8 @@
 .variable.other.interpolation .variable,
 .variable.parameter.output.function.matlab,
 .variable.parameter.sass,
-.variable.other.interpolation.less {
+.variable.other.interpolation.less,
+.variable.control.import.include.pug {
   color: @blue;
 }
 
@@ -387,7 +396,8 @@
 .meta.function-call .variable.function,
 .meta.function-call .entity.name.function,
 .support.function,
-.meta.at-rule.namespace .entity.name.function {
+.meta.at-rule.namespace .entity.name.function,
+.source.script.jade.entity.name.function.pug {
   color: @aqua;
 }
 
@@ -423,7 +433,8 @@
 // HTML & CSS ID
 .constant.id.tag,
 .entity.name.tag.id,
-.entity.other.attribute-name.id {
+.entity.other.attribute-name.id,
+.meta.tag.attribute.id {
   color: @orange;
 }
 
@@ -434,8 +445,14 @@
 
 // HTML & CSS Class
 .entity.name.tag.class,
-.entity.other.attribute-name.class {
+.entity.other.attribute-name.class,
+.meta.tag.attribute.class {
   color: @yellow;
+}
+
+// Jade/Pug Classname
+.meta.tag.attribute.class.jade {
+  color: @purple;
 }
 
 // HTML & CSS Class Punctuation (.)
@@ -531,7 +548,8 @@
 .punctuation.section.function.css,
 .meta.function-call .meta.group .punctuation.definition.group,
 .punctuation.separator.variable.ruby,
-.meta.function-call .punctuation.definition.arguments {
+.meta.function-call .punctuation.definition.arguments,
+.constant.name.attribute.tag.pug {
   color: @fg3;
 }
 
