@@ -1,3 +1,7 @@
+# 1.2.4 (2016-06-14)
+
+- Let UI theme set text-input text color ([dc1c593](https://github.com/Briles/gruvbox-atom/commit/dc1c593590aba54c37dea2558a29f5975c6c31fa))
+
 # 1.2.3 (2016-06-13)
 
 - Improved parity with Sublime Text for Pug/Jade ([307fd60](https://github.com/Briles/gruvbox-atom/commit/307fd607e4061ec36fda88d2b18053aa7c44298d))
