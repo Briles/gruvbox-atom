@@ -77,3 +77,13 @@ atom-text-editor::shadow .current-result .region {
     color: inherit;
   }
 }
+
+.indent-guide-improved {
+  background-color: @guide;
+  &.indent-guide-stack {
+    background-color: @bg3;
+    &.indent-guide-active {
+      background-color: @gray;
+    }
+  }
+}
