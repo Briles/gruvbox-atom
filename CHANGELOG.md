@@ -1,3 +1,8 @@
+# 1.2.5 (2016-06-23)
+
+- Fixed LESS parent selector color ([f48fba4](https://github.com/Briles/gruvbox-atom/commit/f48fba418601d9f4e85b13cc418dc7c1fb502717))
+- Added support for `indent-guide-improved` package ([8672d25](https://github.com/Briles/gruvbox-atom/commit/8672d253bdbc0efcdd7c1e15e80ec3505e91ac75))
+
 # 1.2.4 (2016-06-14)
 
 - Let UI theme set text-input text color ([dc1c593](https://github.com/Briles/gruvbox-atom/commit/dc1c593590aba54c37dea2558a29f5975c6c31fa))
