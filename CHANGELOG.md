@@ -1,4 +1,4 @@
-# 1.2.6 (2017-01-18)
+# 1.3.1 (2017-01-18)
 
 - fixed deprecation for Atom v1.13.0 (#10) ([e3c3d6a](https://github.com/Briles/gruvbox-atom/commit/e3c3d6ac4822177723bf282544de88b0e5539f0f))
 - fixed deprication for Atom v1.13.0 ([543caca](https://github.com/Briles/gruvbox-atom/commit/543cacaab7bccf1225f8dc625cce595513ef9206))
